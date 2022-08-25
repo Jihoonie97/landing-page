@@ -5,7 +5,7 @@ body {
 
 .hero {
     background-color: black;
-    padding-bottom: 32px;
+    padding-bottom: 64px;
 }
 
 .container {
@@ -68,8 +68,12 @@ ul {
     padding: 0;
 }
 
-button {
+.hero-button {
     width: 100px;
+    padding: 4px;
+    background-color: aqua;
+    border-style: none;
+    border-radius: 5px;
 }
 
 .items {
@@ -88,14 +92,60 @@ button {
 }
 
 .box {
-    /* height: 100px;
-    width: 100px;
-    border: #1F2937;
-    border-width: 10px; */
-
     border-radius: 25px;
     border-color: #1F2937;
     border-style: solid;
     width: 200px;
     height: 200px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 48px 300px;
+}
+.quote {
+    font-size: 32px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 0;
+    margin: 32;
+    
+}
+.quote-source {
+    font-weight: bolder;
+    font-size: 32px;
+    color: #1F2937;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+
+.call-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 32px;
+    color: white;
+}
+
+.call-button {
+    width: 80px;
+    height: 30px;
+    padding: 0px 4px;
+    border-style: solid;
+    border-color: white;
+    background-color: #3882F6;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.footer {
+    padding: 32px;
+    background-color: black;
+    color: #E5E7EB;
+    text-align: center;
 }
