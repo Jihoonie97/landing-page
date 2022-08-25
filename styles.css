@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+}
+
+.hero {
+    background-color: #1F2937;
+    padding-bottom: 32px;
+}
+
+.container {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 140px 0 140px;
+    padding: 16px;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 32px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    padding: 0;
+    margin: 0;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    margin: 0 140px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-links a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+} 
+
+#jupiter {
+    width: 350px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    width: 100px;
+}
